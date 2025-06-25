@@ -30,18 +30,15 @@ This e-commerce platform is designed for small businesses. It provides a smooth 
 
 ## 📁 Project Structure
 
-├── dist/ # Build output
-├── public/ # Static assets
-├── small_business/ # Backend (Spring Boot)
-├── src/ # Frontend source code
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
+- dist/ # Build output
+- public/ # Static assets
+- small_business/ # Backend (Spring Boot)
+- src/ # Frontend source code
+- index.html
+- package.json
+- vite.config.js
+- README.md
 
-shell
-Copy
-Edit
 
 ## 🛠️ Getting Started
 
