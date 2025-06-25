@@ -5,12 +5,11 @@ import Navbar from "./components/Navbar";
 import Cart from "./components/Cart";
 import AddProduct from "./components/AddProduct";
 import Product from "./components/Product";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { AppProvider } from "./Context/Context";
 import UpdateProduct from "./components/UpdateProduct";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
@@ -38,24 +37,22 @@ function App() {
 
   return (
     <AppProvider>
-      <BrowserRouter>
-        <Navbar onSelectCategory={handleCategorySelect}
-         />
+      <HashRouter>
+        <Navbar onSelectCategory={handleCategorySelect} />
         <Routes>
           <Route
             path="/"
             element={
-              <Home addToCart={addToCart} selectedCategory={selectedCategory}
-              />
+              <Home addToCart={addToCart} selectedCategory={selectedCategory} />
             }
           />
           <Route path="/add_product" element={<AddProduct />} />
-          <Route path="/product" element={<Product  />} />
-          <Route path="product/:id" element={<Product  />} />
+          <Route path="/product" element={<Product />} />
+          <Route path="/product/:id" element={<Product />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/product/update/:id" element={<UpdateProduct />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </AppProvider>
   );
 }
