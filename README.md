@@ -1,8 +1,60 @@
-# React + Vite
+# 🛍️ Small Business E-commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a full-stack e-commerce web application built using **React + Vite** for the frontend and **Spring Boot (Java)** for the backend REST APIs. The project allows users to browse products by category, add them to a cart, search, update, delete, and purchase products.
 
-Currently, two official plugins are available:
+## 🚀 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This e-commerce platform is designed for small businesses. It provides a smooth and minimal UI built with React and Vite, featuring hot module replacement (HMR), linting with ESLint, and efficient routing. The backend is powered by Spring Boot, offering robust and scalable REST APIs for product management.
+
+## 🧩 Features
+
+- 🔍 View products based on categories
+- 🛒 Add products to the cart
+- 💳 Buy products
+- ✏️ Update and delete existing products
+- 🔎 Search functionality
+- 🔁 Hot Module Reloading (Vite + React)
+
+## ⚙️ Tech Stack
+
+### Frontend:
+- React
+- Vite
+- JavaScript (ES6+)
+- ESLint
+
+### Backend:
+- Java
+- Spring Boot
+- RESTful APIs
+
+## 📁 Project Structure
+
+├── dist/ # Build output
+├── public/ # Static assets
+├── small_business/ # Backend (Spring Boot)
+├── src/ # Frontend source code
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+shell
+Copy
+Edit
+
+## 🛠️ Getting Started
+
+### Prerequisites
+- Node.js & npm
+- Java & Spring Boot
+
+### Frontend Setup
+```bash
+cd your-project-directory
+npm install
+npm run dev
+Backend Setup
+Open the small_business folder in your IDE.
+
+Run the Spring Boot application (make sure your database is configured if needed).
