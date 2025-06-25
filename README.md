@@ -46,12 +46,14 @@ This e-commerce platform is designed for small businesses. It provides a smooth 
 - Node.js & npm
 - Java & Spring Boot
 
+### Backend Setup
+- Open the small_business folder in your IDE.
+- Run the Spring Boot application (make sure your database is configured if needed).
+
 ### Frontend Setup
 ```bash
 cd your-project-directory
 npm install
 npm run dev
-Backend Setup
-Open the small_business folder in your IDE.
 
-Run the Spring Boot application (make sure your database is configured if needed).
+
